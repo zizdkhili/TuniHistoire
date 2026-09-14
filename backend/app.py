@@ -9,7 +9,7 @@ app = Flask(__name__)
 #nkhaliwh yconecti bl cors
 CORS(app)
 @app.route('/')
-trun def serve_index():
+def serve_index():
     return send_from_directory('../frontend', 'index.html')
 
 @app.route('/<path:path>')
