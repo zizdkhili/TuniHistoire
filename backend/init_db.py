@@ -28,8 +28,7 @@ sites_data = [
     ("Kasserine Pass", "Site of a major WWII battle in February 1943 between US forces and the German Afrika Korps.", "World War II", "https://images.unsplash.com/photo-1582236111306-39ce3d5483a9?w=400", 35.1667, 8.7833),
     ("Ras El Blat Marine Museum", "Naval history museum opened in 2022, covering Tunisian maritime history.", "Antiquity / Modern", "https://images.unsplash.com/photo-1518342415174-8452be42d075?w=400", 37.2744, 9.8739),
     ("Carthage Archaeological Site", "Punic Wars era military and naval history, Byrsa hill, and Punic ports.", "Antiquity", "https://images.unsplash.com/photo-1627931326402-53b7501a3501?w=400", 36.8528, 10.3233),
-    ("Amphitheatre of El Jem", "One of the most accomplished examples of Roman architecture, used for gladiatorial events.", "Antiquity", "https://images.unsplash.com/photo-1616805096538-4e1b8a5fcb34?w=400", 35.2964, 10.7069)
-]
+    ("Amphitheatre of El Jem", "One of the most accomplished examples of Roman architecture...", "Antiquity", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/El_Jem_Amphitheatre_2012.jpg/400px-El_Jem_Amphitheatre_2012.jpg", 35.2964, 10.7069)
 
 # 5. إدخال كل المواقع
 for site in sites_data:
