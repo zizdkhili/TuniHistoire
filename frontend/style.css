@@ -1,0 +1,14 @@
+/* نحو الفراغات الزايدة في المتصفح */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1a1a1a; /* لون داكن */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* الخريطة تاخو 100% من الطول والعرض متاع الشاشة */
+#map {
+    width: 100%;
+    height: 100vh;
+}
