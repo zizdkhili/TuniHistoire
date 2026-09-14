@@ -8,7 +8,7 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_D
 }).addTo(map);
 
 // 3. نجيبو الداتا من سيرفر Flask
-fetch('http://127.0.0.1:5000/api/sites?nocache=' + new Date().getTime())
+fetch('/api/sites')
     .then(response => response.json())
     .then(sites => {
         sites.forEach(site => {
