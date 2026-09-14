@@ -17,7 +17,7 @@ fetch('/api/sites')
             // التغيير هوني: زدنا التصويرة في الـ Popup وكبرنا العرض شوية (220px)
             marker.bindPopup(`
                 <div style="text-align: left; width: 220px;">
-                    <img src="${site.image_url}" width="200">
+                    <img src="${site.image_url}" alt="${site.name}" style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 8px;">
                     <h3 style="margin-bottom: 5px; color: #d32f2f; margin-top: 0;">${site.name}</h3>
                     <p style="margin-top: 0; font-size: 13px;"><b>Category:</b> ${site.category}</p>
                     <p style="font-size: 14px;">${site.description}</p>
