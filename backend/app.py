@@ -1,14 +1,21 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 import sqlite3
-
+from flask import send_from_directory
+import os
 # n7adhrou app
 app = Flask(__name__)
 
 #nkhaliwh yconecti bl cors
 CORS(app)
+@app.route('/')
+trun def serve_index():
+    return send_from_directory('../frontend', 'index.html')
 
-# ndharbou server yekhdem w le
+@app.route('/<path:path>')
+def serve_static(path):
+    return send_from_directory('../frontend', path)
+# njarbou server yekhdem w le
 @app.route('/api/test', methods=['GET'])
 def test_server():
     return jsonify({
